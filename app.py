@@ -1,4 +1,5 @@
 from flask import Flask, request, redirect, render_template
+from cs50 import SQL
 
 app = Flask(__name__)
 
