@@ -14,3 +14,7 @@ def signin():
 @app.route("/login")
 def login():
     return render_template("login.html")
+
+@app.route("/start")
+def start():
+    return render_template("pocetna.html")
